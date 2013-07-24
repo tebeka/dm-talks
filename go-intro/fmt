@@ -1,0 +1,4 @@
+#!/bin/bash
+
+files=$(ls *.go | grep -v fwd)
+go fmt $files
